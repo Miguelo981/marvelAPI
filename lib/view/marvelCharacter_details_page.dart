@@ -26,8 +26,8 @@ class MarvelDetailsPage extends StatelessWidget {
         body: Column(
           children: <Widget>[
             SizedBox(
-              width: screenSize.shortestSide - 20,
-              height: screenSize.shortestSide - 20,
+              width: screenSize.shortestSide - 10,
+              height: screenSize.shortestSide - 10,
               child: Stack(
                 children: <Widget>[
                   Hero(
